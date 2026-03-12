@@ -1,14 +1,27 @@
-title: Project title in sentence case
+title: Top 5 emojis
 hero_image: images/banner.png
-description: A short description of the project
-listed: false
-pdf: false
+description: Create a top 5 emojis webpage.
+pdf: resources/rpfi-top5-emojis.pdf
+meta_title: CSS animations | Learn web development | Top emojis
+meta_description: Learn web development for beginners with the Raspberry Pi Foundation. Use CSS animations to create a top 5 list of emojis and make your website engaging.
+version: 4
+listed: true
+copyedit: true
+last_tested: "2022-05-11"
 steps:
-  - title: What you will make
-  - title: Step title
+  - title: You will make
+  - title: Create the list
+  - title: Add a spinning trophy
     completion:
-      - engaged      
-  - title: Challenge
-    challenge: true
+      - engaged
+  - title: Show the background
+  - title: Add a link and quote
+  - title: Animate the header
+    completion:
+      - internal
+  - title: Make the header bounce
+  - title: Update the emoji link
     completion:
       - external
+  - title: Challenge
+    challenge: true
