@@ -1,0 +1,4 @@
+name: 'Top 5 Emoji List'
+identifier: 'editor-top-5-emoji-list-step-3'
+type: 'html'
+build: true
