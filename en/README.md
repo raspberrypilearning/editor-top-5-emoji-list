@@ -5,14 +5,15 @@ This editor project contains the starter code, completed code, supporting assets
 ```plaintext
 en/
 ├── code/
-│   ├── top-5-emoji-list-starter/
-│   ├── top-5-emoji-list-step-2/
-│   ├── top-5-emoji-list-step-3/
-│   ├── top-5-emoji-list-step-4/
-│   ├── top-5-emoji-list-step-5/
-│   ├── top-5-emoji-list-step-6/
-│   ├── top-5-emoji-list-step-8/
-│   └── top-5-emoji-list-complete/
+│   ├── editor-top-5-emoji-list-step-1/
+│   ├── editor-top-5-emoji-list-step-2/
+│   ├── editor-top-5-emoji-list-step-3/
+│   ├── editor-top-5-emoji-list-step-4/
+│   ├── editor-top-5-emoji-list-step-5/
+│   ├── editor-top-5-emoji-list-step-6/
+│   ├── editor-top-5-emoji-list-step-7/
+│   ├── editor-top-5-emoji-list-step-8/
+│   └── editor-top-5-emoji-list-step-9/
 ├── images/
 ├── resources/
 ├── solutions/

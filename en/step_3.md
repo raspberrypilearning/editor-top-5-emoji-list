@@ -31,6 +31,11 @@ line_highlights: 36-44
 
 </div>
 
+<div class="c-project-output">
+  <iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-top-5-emoji-list-step-3" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  </iframe>
+</div>
+
 --- task ---
 **Test:** Click **Run** and check that the trophy appears beside the list and spins when the page loads.
 --- /task ---

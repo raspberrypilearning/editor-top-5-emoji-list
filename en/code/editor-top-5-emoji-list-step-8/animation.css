@@ -1,12 +1,11 @@
 .spinme {
-  animation: rotate-center linear 8s 2; /* runs the 'rotate-centre' animation with linear timing (same pace all the way through) for eight seconds. Runs the animation twice. */
-  display: inline-block; /* Important so the animated element is not split to a new line */
+  animation: rotate-center linear 8s 2; /* Time taken for animation and number of repetitions */
+  display: inline-block; /* Important to allow rotation */
 }
 
 @keyframes rotate-center {
-  /* The rotate animation code */
-  0% {
-    /* Rotate from 0 to 360 degrees */
+/* The spin me animation code */
+  0% { /* Rotate from 0 to 360 degrees */
     transform: rotate(0);
   }
   100% {
@@ -41,7 +40,7 @@
 }
 
 @keyframes scale {
-  /* The scale animation code */
+  /* The twinkle animation code */
   0% {
     transform: scale(1, 1);
   }
@@ -68,10 +67,12 @@
   /* The roll animation code */
   from {
     transform: translate(-60vw) rotate(0deg);
+    transform-origin: center;
   }
 
   to {
     transform: translate(0vw) rotate(360deg);
+    transform-origin: center;
   }
 }
 
@@ -84,45 +85,11 @@
   /* The roll animation code */
   from {
     transform: translate(60vw) rotate(360deg);
+    transform-origin: center;
   }
 
   to {
     transform: translate(0vw) rotate(00deg);
+    transform-origin: center;
   }
-}
-
-.movemeleft {
-  animation: moveleft ease 8s 1;
-  display: inline-block;
-}
-
-@keyframes moveleft {
-  /* The move animation code */
-  from {
-    transform: translate(-60vw);
-  }
-
-  to {
-    transform: translate(0vw);
-  }
-}
-
-.movemeright {
-  animation: moveright ease 8s 1;
-  display: inline-block;
-}
-
-@keyframes moveright {
-  /* The move animation code */
-  from {
-    transform: translate(60vw);
-  }
-
-  to {
-    transform: translate(0vw);
-  }
-}
-
-.flipme {
-  transform: rotateY(180deg);
 }

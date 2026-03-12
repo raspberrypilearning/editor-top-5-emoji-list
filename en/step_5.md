@@ -31,6 +31,11 @@ line_highlights: 48-55
 
 </div>
 
+<div class="c-project-output">
+  <iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-top-5-emoji-list-step-5" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  </iframe>
+</div>
+
 --- task ---
 **Test:** Click **Run** and check that the link appears under the list and the quote appears below it.
 --- /task ---

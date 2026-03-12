@@ -11,6 +11,11 @@ Try one or more of these ideas:
 - Add another quote or another useful emoji link.
 - Change the `opacity` value in `.transparent` to make the background stronger or softer.
 
+<div class="c-project-output">
+  <iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-top-5-emoji-list-step-9" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  </iframe>
+</div>
+
 --- task ---
 **Test:** Click **Run** and check that at least one change you chose is clearly visible on the page.
 --- /task ---

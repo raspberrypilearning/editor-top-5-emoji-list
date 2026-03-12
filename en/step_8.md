@@ -24,6 +24,11 @@ line_highlights: 55-56
 
 </div>
 
+<div class="c-project-output">
+  <iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-top-5-emoji-list-step-8" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  </iframe>
+</div>
+
 --- task ---
 **Test:** Click **Run** and check that the centred link still opens in a new tab and now uses the final page layout.
 --- /task ---
