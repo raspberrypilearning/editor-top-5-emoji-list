@@ -1,16 +1,29 @@
-<h2 class="c-project-heading--task">Challenge</h2>
+<h2 class="c-project-heading--task">Update the emoji link</h2>
 
 --- task ---
-Personalise your emoji page with your own content, styling, or animation choices.
+Replace the temporary emoji link with the final link layout from the complete project.
 --- /task ---
 
-Try one or more of these ideas:
+The complete page wraps the link in a paragraph and uses the short `rpf.io` address.
 
-- Change the list to your own top five emojis.
-- Swap `bounceme` for another class such as `spinme`, `scaleme`, `rollmeleft`, or `rollmeright`.
-- Add another quote or another useful emoji link.
-- Change the `opacity` value in `.transparent` to make the background stronger or softer.
+<div class="c-project-code">
+
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 54
+line_highlights: 55-56
+---
+      </section>
+      <section> <!-- Use a plain section for the final link layout -->
+        <p class="xcenter"><a href="https://rpf.io/emoji" target="_blank">More emojis!</a></p> <!-- Link to the finished emoji page -->
+      </section>
+--- /code ---
+
+</div>
 
 --- task ---
-**Test:** Click **Run** and check that at least one change you chose is clearly visible on the page.
+**Test:** Click **Run** and check that the centred link still opens in a new tab and now uses the final page layout.
 --- /task ---

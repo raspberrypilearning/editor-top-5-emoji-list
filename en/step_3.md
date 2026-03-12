@@ -1,10 +1,10 @@
-<h2 class="c-project-heading--task">Add a trophy</h2>
+<h2 class="c-project-heading--task">Add a spinning trophy</h2>
 
 --- task ---
-Place a large trophy emoji next to your list so the rankings stand out.
+Turn your list into a side-by-side layout and add a spinning trophy emoji.
 --- /task ---
 
-The `wrap`, `wide`, and `narrow` classes help the list and trophy share the space on larger screens.
+This step matches the next checked-in code state, where the layout classes and the `spinme` class are introduced together.
 
 <div class="c-project-code">
 
@@ -14,23 +14,23 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 35
-line_highlights: 36-37,44
+line_highlights: 36-44
 ---
     <main>
-      <section class="wrap"> <!-- Let the list and trophy sit in one row -->
-        <ol class="wide"> <!-- Give the list more room than the trophy -->
+      <section class="wrap"> <!-- Let the list and trophy sit side by side -->
+        <ol class="wide"> <!-- Make the list wider than the trophy area -->
           <li>🤣 – Rolling on the floor laughing.</li>
           <li>👍👍🏻👍🏼👍🏽👍🏾👍🏿 – Thumbs up.</li>
           <li>😭 – Loudly crying face.</li>
           <li>🙏🙏🏻🙏🏽🙏🏽🙏🏾🙏🏿 – Folded hands.</li>
           <li>😘 – Face blowing a kiss.</li>
         </ol>
-        <p class="narrow hugefont">🏆</p> <!-- Add a large trophy emoji -->
+        <p class="narrow hugefont spinme">🏆</p> <!-- Add a large trophy and make it spin -->
       </section>
 --- /code ---
 
 </div>
 
 --- task ---
-**Test:** Click **Run** and check that the trophy appears beside the list when there is enough room.
+**Test:** Click **Run** and check that the trophy appears beside the list and spins when the page loads.
 --- /task ---

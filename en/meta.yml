@@ -11,15 +11,16 @@ last_tested: "2022-05-11"
 steps:
   - title: You will make
   - title: Create the list
-  - title: Add a trophy
+  - title: Add a spinning trophy
     completion:
       - engaged
-  - title: Spin the trophy
-  - title: Add a background
+  - title: Show the background
   - title: Add a link and quote
+  - title: Animate the header
     completion:
       - internal
-  - title: Animate the header
+  - title: Make the header bounce
+  - title: Update the emoji link
     completion:
       - external
   - title: Challenge

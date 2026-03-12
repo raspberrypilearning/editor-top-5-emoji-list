@@ -1,10 +1,10 @@
-<h2 class="c-project-heading--task">Animate the header</h2>
+<h2 class="c-project-heading--task">Make the header bounce</h2>
 
 --- task ---
-Add bouncing emojis to the header to make the top of your page more eye-catching.
+Replace the mixed header effects with bouncing emojis to match the complete project.
 --- /task ---
 
-The `.bounceme` class is already included in `animation.css`, so you can reuse it on each emoji in the header.
+The complete version uses the same animation class on all five emojis.
 
 <div class="c-project-code">
 
@@ -18,11 +18,11 @@ line_highlights: 34-38
 ---
   <header class="secondary border-bottom">
     <h1>Top 5 Emojis!</h1>
-    <span class="bigfont bounceme">🤣</span> <!-- Add a bouncing emoji to the header -->
-    <span class="bigfont bounceme">😇</span> <!-- Add another bouncing emoji -->
-    <span class="bigfont bounceme">😭</span> <!-- Add another bouncing emoji -->
-    <span class="bigfont bounceme">🤩</span> <!-- Add another bouncing emoji -->
-    <span class="bigfont bounceme">😘</span> <!-- Add another bouncing emoji -->
+    <span class="bigfont bounceme">🤣</span> <!-- Change the first emoji to bounce -->
+    <span class="bigfont bounceme">😇</span> <!-- Change the second emoji to bounce -->
+    <span class="bigfont bounceme">😭</span> <!-- Change the third emoji to bounce -->
+    <span class="bigfont bounceme">🤩</span> <!-- Keep the fourth emoji bouncing -->
+    <span class="bigfont bounceme">😘</span> <!-- Change the fifth emoji to bounce -->
   </header>
 --- /code ---
 

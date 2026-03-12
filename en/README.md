@@ -24,7 +24,8 @@ en/
 ├── step_5.md
 ├── step_6.md
 ├── step_7.md
-└── step_8.md
+├── step_8.md
+└── step_9.md
 ```
 
 The `code/` folders mirror key editor states for the published project. The markdown files in `en/` are the learner-facing source of truth for the rewritten step flow.

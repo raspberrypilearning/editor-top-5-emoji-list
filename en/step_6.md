@@ -1,10 +1,10 @@
-<h2 class="c-project-heading--task">Add a link and quote</h2>
+<h2 class="c-project-heading--task">Animate the header</h2>
 
 --- task ---
-Add a helpful link and a short quote to give your page more content.
+Add the different header animations from the next checked-in project state.
 --- /task ---
 
-Links use the `<a>` tag, and quotes can be marked up with `<blockquote>` and `<cite>`.
+Each emoji uses a different class so the top of the page feels more energetic.
 
 <div class="c-project-code">
 
@@ -13,25 +13,21 @@ Links use the `<a>` tag, and quotes can be marked up with `<blockquote>` and `<c
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 53
-line_highlights: 55-64
+line_number_start: 30
+line_highlights: 32-36
 ---
-        <p class="narrow hugefont spinme">🏆</p>
-      </section>
-      <section> <!-- Add a section for the link -->
-        <p class="xcenter"><a href="https://rpf.io/emoji" target="_blank">More emojis!</a></p> <!-- Link to another emoji page -->
-      </section>
-
-      <section class="wrap"> <!-- Add a section for the quote -->
-        <blockquote>
-            <p>"Oceans of emotion can be transmitted through an emoji sequence"</p> <!-- Show the quote text -->
-            <cite>- Jenna Wortham.</cite> <!-- Credit the quote -->
-        </blockquote>
-      </section>
+  <header class="secondary border-bottom">
+    <h1>Top 5 Emojis!</h1>
+    <span class="bigfont rollmeleft">🤣</span> <!-- Roll the first emoji in from the left -->
+    <span class="bigfont spinme">😇</span> <!-- Spin the second emoji -->
+    <span class="bigfont scaleme">😭</span> <!-- Make the third emoji grow and shrink -->
+    <span class="bigfont bounceme">🤩</span> <!-- Make the fourth emoji bounce -->
+    <span class="bigfont rollmeright">😘</span> <!-- Roll the fifth emoji in from the right -->
+  </header>
 --- /code ---
 
 </div>
 
 --- task ---
-**Test:** Click **Run** and check that the link is centred and the quote appears below it in a larger style.
+**Test:** Click **Run** and check that the header emojis use different animations when the page loads.
 --- /task ---
