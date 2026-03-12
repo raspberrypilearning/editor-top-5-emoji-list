@@ -1,8 +1,39 @@
-## Step title
+<h2 class="c-project-heading--task">Create the list</h2>
 
 --- task ---
-
-
+Add a page title and an ordered list of your top five emojis.
 --- /task ---
 
+Ordered lists are useful for rankings because the browser numbers each item for you.
 
+<div class="c-project-code">
+
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 30
+line_highlights: 31,36-43
+---
+  <header class="secondary border-bottom">
+    <h1>Top 5 Emojis!</h1> <!-- Add a heading for your page -->
+  </header>
+
+    <main>
+      <section> <!-- Add a section to hold the ranking -->
+        <ol> <!-- Use an ordered list for the top five -->
+          <li>🤣 – Rolling on the floor laughing.</li> <!-- Add the first emoji -->
+          <li>👍👍🏻👍🏼👍🏽👍🏾👍🏿 – Thumbs up.</li>
+          <li>😭 – Loudly crying face.</li>
+          <li>🙏🙏🏻🙏🏽🙏🏽🙏🏾🙏🏿 – Folded hands.</li>
+          <li>😘 – Face blowing a kiss.</li>
+        </ol>
+      </section>
+--- /code ---
+
+</div>
+
+--- task ---
+**Test:** Click **Run** and check that your page shows a numbered list underneath the heading.
+--- /task ---
