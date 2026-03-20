@@ -61,6 +61,8 @@ main {
   margin-bottom: 1em; /* Gap before the footer */
 }
 
+/* Add a transparent effect */
+
 /* Header and footer element styles */
 
 header,
@@ -89,10 +91,6 @@ section {
 .border-top {
   border-top: 10px solid var(--detail2); /* Add a solid line above the footer */
 }
-
-/* Add a transparent effect */
-
-
 
 /* Styles just for h1 elements */
 

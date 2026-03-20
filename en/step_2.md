@@ -13,23 +13,23 @@ Ordered lists are useful for rankings because the browser numbers each item for 
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 30
-line_highlights: 31,36-43
+line_number_start: 31
+line_highlights: 32,35-44
 ---
   <header class="secondary border-bottom">
     <h1>Top 5 Emojis!</h1> <!-- Add a heading for your page -->
   </header>
-
-    <main>
-      <section> <!-- Add a section to hold the ranking -->
-        <ol> <!-- Use an ordered list for the top five -->
-          <li>🤣 – Rolling on the floor laughing.</li> <!-- Add the first emoji -->
-          <li>👍👍🏻👍🏼👍🏽👍🏾👍🏿 – Thumbs up.</li>
-          <li>😭 – Loudly crying face.</li>
-          <li>🙏🙏🏻🙏🏽🙏🏽🙏🏾🙏🏿 – Folded hands.</li>
-          <li>😘 – Face blowing a kiss.</li>
-        </ol>
-      </section>
+  <main>
+    <section> <!-- Add a section to hold the ranking -->
+      <ol> <!-- Use an ordered list for the top five -->
+        <li>🤣 – Rolling on the floor laughing.</li> <!-- Add the first emoji -->
+        <li>👍👍🏻👍🏼👍🏽👍🏾👍🏿 – Thumbs up.</li>
+        <li>😭 – Loudly crying face.</li>
+        <li>🙏🙏🏻🙏🏽🙏🏽🙏🏾🙏🏿 – Folded hands.</li>
+        <li>😘 – Face blowing a kiss.</li>
+      </ol>
+    </section>
+  </main>
 --- /code ---
 
 </div>

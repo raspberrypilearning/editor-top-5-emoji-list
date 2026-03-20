@@ -4,7 +4,9 @@
 Replace the temporary emoji link with the final link layout from the complete project.
 --- /task ---
 
-The complete page wraps the link in a paragraph and uses the short `rpf.io` address.
+This step matches the complete project: the link moves into a paragraph, and the URL changes to the short `rpf.io` address.
+
+Go back to `index.html` and replace the old link section with this final version. Only the link section changes here; the quote underneath stays the same.
 
 <div class="c-project-code">
 
@@ -13,13 +15,18 @@ The complete page wraps the link in a paragraph and uses the short `rpf.io` addr
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 54
-line_highlights: 55-56
+line_number_start: 53
+line_highlights: 54-55
 ---
       </section>
       <section> <!-- Use a plain section for the final link layout -->
-        <p class="xcenter"><a href="https://rpf.io/emoji" target="_blank">More emojis!</a></p> <!-- Link to the finished emoji page -->
+        <p class="xcenter"><a href="https://rpf.io/emoji" target="_blank">More emojis!</a></p> <!-- Move xcenter to the paragraph and use the final link -->
       </section>
+
+      <!-- A block quote with a citation -->
+
+      <section class="wrap">
+        <blockquote>
 --- /code ---
 
 </div>
