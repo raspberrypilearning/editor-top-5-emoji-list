@@ -6,7 +6,7 @@ Add the background image and transparent main panel from the next checked-in pro
 
 This step uses two code snippets because the imported snapshot changes both `index.html` and `style.css`, and you need both edits to see the result.
 
-**Code snippet 1: Update the page structure.**
+**Code snippet 1: Go back to `index.html` and update the page structure.**
 
 <div class="c-project-code">
 
@@ -15,27 +15,28 @@ This step uses two code snippets because the imported snapshot changes both `ind
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 35
-line_highlights: 35,37,45
+line_number_start: 34
+line_highlights: 34,36,45
 ---
-    <main class="transparent"> <!-- Make the main panel use the transparent style -->
-      <section class="wrap">
-        <div class="wide"> <!-- Wrap the list in a wide container -->
-          <ol>
-            <li>🤣 – Rolling on the floor laughing.</li>
-            <li>👍👍🏻👍🏼👍🏽👍🏾👍🏿 – Thumbs up.</li>
-            <li>😭 – Loudly crying face.</li>
-            <li>🙏🙏🏻🙏🏽🙏🏽🙏🏾🙏🏿 – Folded hands.</li>
-            <li>😘 – Face blowing a kiss.</li>
-          </ol>
-        </div>
-        <p class="narrow hugefont spinme">🏆</p>
-      </section>
+  <main class="transparent"> <!-- Make the main panel use the transparent style -->
+    <section class="wrap">
+      <div class="wide"> <!-- Wrap the list in a wide container -->
+        <ol>
+          <li>🤣 – Rolling on the floor laughing.</li>
+          <li>👍👍🏻👍🏼👍🏽👍🏾👍🏿 – Thumbs up.</li>
+          <li>😭 – Loudly crying face.</li>
+          <li>🙏🙏🏻🙏🏽🙏🏽🙏🏾🙏🏿 – Folded hands.</li>
+          <li>😘 – Face blowing a kiss.</li>
+        </ol>
+      </div>
+      <p class="narrow hugefont spinme">🏆</p>
+    </section>
+  </main>
 --- /code ---
 
 </div>
 
-**Code snippet 2: Add the background and transparent style.**
+**Code snippet 2: Then open `style.css` and add the background and transparent style.**
 
 <div class="c-project-code">
 
@@ -45,14 +46,14 @@ language: css
 filename: style.css
 line_numbers: true
 line_number_start: 44
-line_highlights: 47,95-97
+line_highlights: 47,66-67
 ---
 /* add a background image to body */
 
 body {
   background-image: url('emojis.png'); /* Show the emoji image behind the page */
   /*background-repeat: repeat;*/ /* Make the image repeat */
-  /*background-size: cover; */ /* Make the image cover the whole container */
+  /*background-size: cover;*/ /* Make the image cover the whole container */
 }
 
 /* The main content of the page between the header and footer */
@@ -65,35 +66,6 @@ main {
   padding: 0;
   padding-top: 0.5rem; /* Padding at the top */
   margin-bottom: 1em; /* Gap before the footer */
-}
-
-/* Header and footer element styles */
-
-header,
-footer {
-  text-align: center;
-  width: 100%; /* Fill the full width of the window */
-  margin: 0; /* Remove the default margin */
-  min-height: 3rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-/* Section styles */
-
-section {
-  padding: 1rem 2rem;
-  margin: 1rem auto;
-}
-
-/* Border styles */
-
-.border-bottom {
-  border-bottom: 20px solid var(--detail); /* Add a solid */
-}
-
-.border-top {
-  border-top: 10px solid var(--detail2); /* Add a solid line above the footer */
 }
 
 /* Add a transparent effect */
