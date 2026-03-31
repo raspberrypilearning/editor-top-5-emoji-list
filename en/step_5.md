@@ -1,12 +1,9 @@
-<h2 class="c-project-heading--task">Add a link and quote</h2>
+<h2 class="c-project-heading--task">Animate the header</h2>
 
---- task ---
-Add the extra text content from the next project snapshot: a link and a quote.
---- /task ---
+### Step 1
+Add the different header animations from the next checked-in project state.
 
-This imported code state adds both pieces of content together, so they stay in one step.
-
-Go back to `index.html` and add the new link section followed by the quote section.
+Each emoji uses a different class so the top of the page feels more energetic.
 
 <div class="c-project-code">
 
@@ -15,30 +12,25 @@ Go back to `index.html` and add the new link section followed by the quote secti
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 45
-line_highlights: 47-53
+line_number_start: 30
+line_highlights: 32-36
 ---
-    <p class="narrow hugefont spinme">🏆</p>
-  </section>
-  <section class="xcenter"> <!-- Add a centred section for the link -->
-    <a href="https://unicode.org/emoji/charts/full-emoji-list.html" target="_blank">More emojis!</a> <!-- Link to another emoji page -->
-  </section>
-  <section class="wrap"> <!-- Add a section for the quote -->
-    <blockquote>
-      <p>"Oceans of emotion can be transmitted through an emoji sequence"</p> <!-- Show the quote text -->
-      <cite>- Jenna Wortham.</cite> <!-- Credit the quote -->
-    </blockquote>
-  </section>
-  </main>
+  <header class="secondary border-bottom">
+    <h1>Top 5 Emojis!</h1>
+    <span class="bigfont rollmeleft">🤣</span> <!-- Roll the first emoji in from the left -->
+    <span class="bigfont spinme">😇</span> <!-- Spin the second emoji -->
+    <span class="bigfont scaleme">😭</span> <!-- Make the third emoji grow and shrink -->
+    <span class="bigfont bounceme">🤩</span> <!-- Make the fourth emoji bounce -->
+    <span class="bigfont rollmeright">😘</span> <!-- Roll the fifth emoji in from the right -->
+  </header>
 --- /code ---
 
 </div>
 
 <div class="c-project-output">
-  <iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-top-5-emoji-list-step-5" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-top-5-emoji-list-step-6" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
---- task ---
-**Test:** Click **Run** and check that the link appears under the list and the quote appears below it.
---- /task ---
+### Step 2
+**Test:** Click **Run** and check that the header emojis use different animations when the page loads.
