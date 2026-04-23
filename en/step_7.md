@@ -1,7 +1,8 @@
 <h2 class="c-project-heading--task">Update the emoji link</h2>
 
-### Step 1
 Replace the temporary emoji link with the final link layout from the complete project.
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 This step matches the complete project: the link moves into a paragraph, and the URL changes to the short `rpf.io` address.
 
@@ -35,5 +36,6 @@ line_highlights: 54-55
   </iframe>
 </div>
 
-### Step 2
-**Test:** Click **Run** and check that the centred link still opens in a new tab and now uses the final page layout.
+## Now run your code
+
+Click **Run** and check that the centred link still opens in a new tab and now uses the final page layout.

@@ -1,7 +1,8 @@
 <h2 class="c-project-heading--task">Challenge</h2>
 
-### Step 1
 Personalise your emoji page with your own content, styling, or animation choices.
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 Try one or more of these ideas:
 
@@ -15,5 +16,6 @@ Try one or more of these ideas:
   </iframe>
 </div>
 
-### Step 2
-**Test:** Click **Run** and check that at least one change you chose is clearly visible on the page.
+## Now run your code
+
+Click **Run** and check that at least one change you chose is clearly visible on the page.

@@ -1,7 +1,8 @@
 <h2 class="c-project-heading--task">Add a spinning trophy</h2>
 
-### Step 1
 Turn your list into a side-by-side layout and add a spinning trophy emoji.
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 This step matches the next checked-in code state, where the layout classes and the `spinme` class are introduced together.
 
@@ -38,5 +39,6 @@ line_highlights: 35-36,43
   </iframe>
 </div>
 
-### Step 2
-**Test:** Click **Run** and check that the trophy appears beside the list and spins when the page loads.
+## Now run your code
+
+Click **Run** and check that the trophy appears beside the list and spins when the page loads.

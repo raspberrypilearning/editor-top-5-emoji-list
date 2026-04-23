@@ -1,7 +1,8 @@
 <h2 class="c-project-heading--task">Create the list</h2>
 
-### Step 1
 Add a page title and an ordered list of your top five emojis.
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 Ordered lists are useful for rankings because the browser numbers each item for you.
 
@@ -38,5 +39,6 @@ line_highlights: 32,35-44
   </iframe>
 </div>
 
-### Step 2
-**Test:** Click **Run** and check that your page shows a numbered list underneath the heading.
+## Now run your code
+
+Click **Run** and check that your page shows a numbered list underneath the heading.

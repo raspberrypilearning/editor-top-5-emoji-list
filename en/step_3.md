@@ -1,7 +1,8 @@
 <h2 class="c-project-heading--task">Show the background</h2>
 
-### Step 1
 Add the background image and transparent main panel from the next checked-in project state.
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 This step uses two code snippets because the imported snapshot changes both `index.html` and `style.css`, and you need both edits to see the result.
 
@@ -81,5 +82,6 @@ main {
   </iframe>
 </div>
 
-### Step 2
-**Test:** Click **Run** and check that the emoji background shows around the page edges and the main panel looks slightly transparent.
+## Now run your code
+
+Click **Run** and check that the emoji background shows around the page edges and the main panel looks slightly transparent.

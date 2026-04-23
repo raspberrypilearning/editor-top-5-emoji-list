@@ -1,7 +1,8 @@
 <h2 class="c-project-heading--task">Add a link and quote</h2>
 
-### Step 1
 Add the extra text content from the next project snapshot: a link and a quote.
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 This imported code state adds both pieces of content together, so they stay in one step.
 
@@ -38,5 +39,6 @@ line_highlights: 47-53
   </iframe>
 </div>
 
-### Step 2
-**Test:** Click **Run** and check that the link appears under the list and the quote appears below it.
+## Now run your code
+
+Click **Run** and check that the link appears under the list and the quote appears below it.

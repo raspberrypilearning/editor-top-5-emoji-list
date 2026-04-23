@@ -1,7 +1,8 @@
 <h2 class="c-project-heading--task">Make the header bounce</h2>
 
-### Step 1
 Replace the mixed header effects with bouncing emojis to match the complete project.
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 The complete version uses the same animation class on all five emojis.
 
@@ -32,5 +33,6 @@ line_highlights: 34-38
   </iframe>
 </div>
 
-### Step 2
-**Test:** Click **Run** and check that all five header emojis bounce when the page loads.
+## Now run your code
+
+Click **Run** and check that all five header emojis bounce when the page loads.

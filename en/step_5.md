@@ -1,7 +1,8 @@
 <h2 class="c-project-heading--task">Animate the header</h2>
 
-### Step 1
 Add the different header animations from the next checked-in project state.
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 Each emoji uses a different class so the top of the page feels more energetic.
 
@@ -32,5 +33,6 @@ line_highlights: 32-36
   </iframe>
 </div>
 
-### Step 2
-**Test:** Click **Run** and check that the header emojis use different animations when the page loads.
+## Now run your code
+
+Click **Run** and check that the header emojis use different animations when the page loads.
