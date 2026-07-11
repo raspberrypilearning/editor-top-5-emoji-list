@@ -1,20 +1,10 @@
-<h2 class="c-project-heading--task">Create the list</h2>
+## Create the list
 
-### Step 1
 Add a page title and an ordered list of your top five emojis.
 
 Ordered lists are useful for rankings because the browser numbers each item for you.
 
-<div class="c-project-code">
-
---- code ---
----
-language: html
-filename: index.html
-line_numbers: true
-line_number_start: 31
-line_highlights: 32,35-44
----
+```html filename="index.html" line_numbers="true" line_number_start="31" line_highlights="32,35-44"
   <header class="secondary border-bottom">
     <h1>Top 5 Emojis!</h1> <!-- Add a heading for your page -->
   </header>
@@ -29,14 +19,11 @@ line_highlights: 32,35-44
       </ol>
     </section>
   </main>
---- /code ---
+```
 
-</div>
+## Now run your code
 
-<div class="c-project-output">
-  <iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-top-5-emoji-list-step-2" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+Click **Run** and check that your page shows a numbered list underneath the heading.
 
-### Step 2
-**Test:** Click **Run** and check that your page shows a numbered list underneath the heading.
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-top-5-emoji-list-step-2" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe>
