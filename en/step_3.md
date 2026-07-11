@@ -1,23 +1,12 @@
-<h2 class="c-project-heading--task">Show the background</h2>
+## Show the background
 
 Add the background image and transparent main panel from the next checked-in project state.
-
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 This step uses two code snippets because the imported snapshot changes both `index.html` and `style.css`, and you need both edits to see the result.
 
 **Code snippet 1: Go back to `index.html` and update the page structure.**
 
-<div class="c-project-code">
-
---- code ---
----
-language: html
-filename: index.html
-line_numbers: true
-line_number_start: 34
-line_highlights: 34,36,45
----
+```html filename="index.html" line_numbers="true" line_number_start="34" line_highlights="34,36,45"
   <main class="transparent"> <!-- Make the main panel use the transparent style -->
     <section class="wrap">
       <div class="wide"> <!-- Wrap the list in a wide container -->
@@ -32,22 +21,11 @@ line_highlights: 34,36,45
       <p class="narrow hugefont spinme">🏆</p>
     </section>
   </main>
---- /code ---
-
-</div>
+```
 
 **Code snippet 2: Then open `style.css` and add the background and transparent style.**
 
-<div class="c-project-code">
-
---- code ---
----
-language: css
-filename: style.css
-line_numbers: true
-line_number_start: 44
-line_highlights: 47,66-67
----
+```css filename="style.css" line_numbers="true" line_number_start="44" line_highlights="47,66-67"
 /* add a background image to body */
 
 body {
@@ -73,15 +51,11 @@ main {
 .transparent {
   opacity: 0.95; /* Let the background show through a little */
 }
---- /code ---
-
-</div>
-
-<div class="c-project-output">
-  <iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-top-5-emoji-list-step-4" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+```
 
 ## Now run your code
 
 Click **Run** and check that the emoji background shows around the page edges and the main panel looks slightly transparent.
+
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-top-5-emoji-list-step-4" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe>
